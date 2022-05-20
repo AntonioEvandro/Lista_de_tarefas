@@ -27,6 +27,14 @@ const moverParaFeito = function(ev){
     lstAFazer.removeChild(ev.target)
 }
 
+const limparFeito = function(ev){
+    const item = ev.target.parentElement
+
+    lstFeito.removeChild(item)
+}
+
 btnAddTarefa.addEventListener("click", adicionarTarefa)
 
 lstAFazer.addEventListener("click", moverParaFeito)
+
+lstFeito.addEventListener("click", limparFeito)
