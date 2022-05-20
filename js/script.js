@@ -28,7 +28,7 @@ const moverParaFeito = function(ev){
 }
 
 const limparFeito = function(ev){
-    const item = ev.target.parentElement
+    const item = ev.target
 
     lstFeito.removeChild(item)
 }
