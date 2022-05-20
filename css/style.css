@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(124, 130, 136);
+    
+}
+h1 a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
